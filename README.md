@@ -109,6 +109,4 @@ Perspectives d’évolution
 
  Auteur
 
-Hojine Anagonou
-
-Projet personnel de data analytics et de machine learning réalisé dans le cadre d'auto apprentissage.
+Hojine Anagonou, étudiant en Analyse Informatique et Programmation (ENEAM, Université d'Abomey-Calavi). Contact : anagonouhojine@gmail.com
