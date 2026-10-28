@@ -4,9 +4,6 @@ __pycache__/
 .env
 .ipynb_checkpoints/
 .pytest_cache/
-data/raw/*
 data/external/*
 data/processed/*
-!data/raw/.gitkeep
-!data/external/.gitkeep
 !data/processed/.gitkeep
