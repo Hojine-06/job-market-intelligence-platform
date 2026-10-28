@@ -1,12 +1,12 @@
-# NEXUS — Plateforme d’intelligence du marché de l’emploi
+NEXUS — Plateforme d’intelligence du marché de l’emploi
 
-## Présentation
+Présentation
 
 NEXUS est un projet d’analyse de données consacré au marché de l’emploi. Il vise à exploiter les offres d’emploi afin d’identifier les compétences recherchées, d’analyser les tendances de recrutement et de classifier les offres selon leurs caractéristiques.
 
 Le projet combine collecte de données, traitement, analyse, apprentissage automatique et visualisation interactive.
 
-## Objectifs
+Objectifs
 
 - Collecter et exploiter des données relatives aux offres d’emploi.
 - Analyser les métiers et les compétences demandées par les recruteurs.
@@ -14,7 +14,7 @@ Le projet combine collecte de données, traitement, analyse, apprentissage autom
 - Développer un modèle de classification des offres.
 - Présenter les résultats dans un tableau de bord interactif.
 
-## Fonctionnalités
+ Fonctionnalités
 
 - Collecte et préparation des données d’emploi.
 - Analyse des offres et des compétences.
@@ -22,16 +22,16 @@ Le projet combine collecte de données, traitement, analyse, apprentissage autom
 - Visualisation des résultats dans un tableau de bord.
 - Tests automatisés pour contrôler la qualité des données.
 
-## Technologies utilisées
+ Technologies utilisées
 
-- **Python** : traitement et analyse des données.
-- **Pandas** : manipulation des données.
-- **Scikit-learn** : apprentissage automatique.
-- **Streamlit** : tableau de bord interactif, si utilisé dans l’application.
-- **Pytest** : tests automatisés.
-- **Git et GitHub** : gestion de versions et hébergement du code.
+- Python : traitement et analyse des données.
+- Pandas : manipulation des données.
+- Scikit-learn : apprentissage automatique.
+- Streamlit: tableau de bord interactif, si utilisé dans l’application.
+- Pytest : tests automatisés.
+- Git et GitHub : gestion de versions et hébergement du code.
 
-## Structure du projet
+Structure du projet
 
 ```text
 job-market-intelligence-platform/
@@ -60,47 +60,46 @@ job-market-intelligence-platform/
 └── README.md
 ```
 
-## Installation
+ Installation
 
-### 1. Cloner le dépôt
+1. Cloner le dépôt
 
-```bash
+   bash
 git clone https://github.com/Hojine-06/job-market-intelligence-platform.git
 cd job-market-intelligence-platform
-```
 
-### 2. Créer un environnement virtuel
+
+2. Créer un environnement virtuel
 
 Sous Windows :
 
-```powershell
+   powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
-```
 
-### 3. Installer les dépendances
 
-```bash
+ 3. Installer les dépendances
+
+   bash
 pip install -r requirements.txt
-```
 
-## Tests
+ Tests
 
 Pour exécuter les tests automatisés :
 
-```bash
+   bash
 python -m pytest -v
-```
+
 
 Les six tests de validation des données exécutés lors de la vérification initiale ont réussi.
 
-## Lancement du tableau de bord
+Lancement du tableau de bord
 
 Le point d’entrée du tableau de bord est `dashboard/app.py`.
 
 La commande de lancement dépend du framework effectivement utilisé dans ce fichier. Vérifiez les instructions correspondantes avant de lancer l’application.
 
-## Perspectives d’évolution
+Perspectives d’évolution
 
 - Automatiser la collecte et la mise à jour des offres.
 - Enrichir l’analyse des compétences et des métiers.
@@ -108,8 +107,8 @@ La commande de lancement dépend du framework effectivement utilisé dans ce fic
 - Ajouter des indicateurs et des visualisations au tableau de bord.
 - Développer une architecture de traitement de données plus automatisée.
 
-## Auteur
+ Auteur
 
-**Hojine Anagonou**
+Hojine Anagonou
 
-Projet personnel de data analytics et de machine learning réalisé dans le cadre du développement d’un portfolio technique.
+Projet personnel de data analytics et de machine learning réalisé dans le cadre d'auto apprentissage.
